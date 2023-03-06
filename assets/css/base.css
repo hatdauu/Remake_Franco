@@ -18,6 +18,7 @@ html {
     /* font-family: 'Montserrat', sans-serif; */
     font-family: 'Open Sans', sans-serif;
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 
 @keyframes fadeIn {
