@@ -1,8 +1,8 @@
 /* Mobile */
 @media (max-width: 740px) {
     .col {
-        padding-left: 0;
-        padding-right: 0;
+        padding-left: 16px;
+        padding-right: 16px;
     }
 
     .header__template-heading {
