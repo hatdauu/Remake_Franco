@@ -736,7 +736,12 @@
     margin-left: 5px;
 }
 
+.footer__down-partner-item:hover .footer__down-partner-icon i {
+    color: var(--white-color);
+}
+
 .footer__down-partner-icon i {
+    transition: all ease-out 0.3s;
     font-size: 2rem;
     color: #888888;
 }
