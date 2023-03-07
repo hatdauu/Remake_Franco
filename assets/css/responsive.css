@@ -9,6 +9,7 @@
         display: none;
     }
 
+    .blog__title, .feature__container,
     .header__navbar-trademark {
         margin-left: 16px;
     }
