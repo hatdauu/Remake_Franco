@@ -1,5 +1,10 @@
 /* Mobile */
 @media (max-width: 740px) {
+    .col {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
     .header__template-heading {
         display: none;
     }
@@ -10,6 +15,10 @@
 
     .header__navbar-icon {
         display: block;
+    }
+
+    .banner__container-main {
+        height: 300px;
     }
 
     .banner__container-main-content {
@@ -240,9 +249,17 @@
     }
 }
 
+/* >>>>> */
+
 @media (max-width: 1310px) {
     .header__navbar-shop {
         display: none !important;
+    }
+
+    .header__search {
+        top: calc(100% + 20px);
+        right: 0;
+        left: unset;
     }
 }
 
@@ -259,4 +276,11 @@
         margin-right: 0;
     }
 }
+
+/* @media (max-width: 1440px) {
+    .header__navbar-shop {
+        display: none !important;
+    }
+}
+ */
 
