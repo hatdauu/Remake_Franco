@@ -703,6 +703,10 @@
     height: 70px;
 }
 
+.footer__down-made {
+    text-align: center;
+}
+
 .footer__down-made-content {
     color: #888888;
     font-size: 1.4rem;
@@ -813,8 +817,6 @@
 .slick-dots .slick-active button,
 .slick-active button {
     background-color: var(--primary-color);
-    width: 20px;
-    border-radius: 20px;
 }
 
 .header__menu {

@@ -68,6 +68,13 @@
         left: 9%;
     }
 
+    #category {
+        margin-bottom: 30px;
+    }
+    .category__item {
+        margin-top: 20px;
+    }
+
     .category__item-img {
         height: 200px;
     }
@@ -94,7 +101,7 @@
     }
 
     .footer__down-partner {
-        margin-top: 20px;
+        margin-top: 16px;
     }
 
     .footer__down-partner-icon i {
