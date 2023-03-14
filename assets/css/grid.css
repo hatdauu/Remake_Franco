@@ -437,10 +437,6 @@
 
 /* > PC low resolution */
 @media (min-width: 1024px) and (max-width: 1239px) {
-    .header__navbar-item {
-        display: none;
-    }
-
     .header__navbar-icon {
         display: block;
     }
