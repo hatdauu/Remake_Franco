@@ -72,9 +72,6 @@
     #category {
         margin-bottom: 30px;
     }
-    .category__item {
-        margin-top: 20px;
-    }
 
     .category__item-img {
         height: 200px;
@@ -179,11 +176,15 @@
     .footer__social-icon i {
         font-size: 3rem;
     }
+
+    .slick-dots {
+        bottom: 18%;
+    }
 }
 
 
 /* > PC low resolution */
-@media(max-width: 1024px) {
+@media(max-width: 1023px) {
     .header__navbar-menu {
         display: block;
     }
@@ -284,6 +285,10 @@
         color: var(--black-color);
         margin: 0 10px;
     }
+
+    .category__item {
+        margin-top: 20px;
+    }
 }
 
 /* >>>>> */
@@ -299,7 +304,7 @@
 
 }
 
-@media (max-width: 1310px) {
+@media (max-width: 1450px) {
     .header__navbar-shop {
         display: none !important;
     }
